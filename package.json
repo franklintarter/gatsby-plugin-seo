@@ -1,10 +1,11 @@
 {
   "private": true,
   "workspaces": [
-    "example"
+    "example",
+    "gatsby-plugin-seo"
   ],
   "scripts": {
-    "develop": "yarn workspace example clean && cd example && yarn develop",
+    "develop": "yarn workspace example develop",
     "build": "cd example && yarn build"
   },
   "devDependencies": {
