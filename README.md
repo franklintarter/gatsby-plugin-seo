@@ -4,7 +4,7 @@ Run Example
 
 ```shell
 yarn
-yarn workspace example develop
+yarn workspace example-site develop
 ```
 
 **[See Plugin Docs](https://github.com/franklintarter/gatsby-plugin-seo/tree/master/gatsby-plugin-seo)**
