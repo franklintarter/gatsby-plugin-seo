@@ -12,15 +12,13 @@ exports.sourceNodes = async ({ actions, reporter }, options) => {
       pluginOpts.appleTouch,
       pluginOpts.favicon32,
       pluginOpts.favicon16,
-      "favicon.ico"
+      "favicon.ico",
     ];
 
     requiredFiles.forEach(f => {
-      const filePath = path.join(__dirname, f);
-      reporter.warn(filePath);
-
-      if (!fs.existsSync(path)) {
-        reporter.error(`Could not find file '${f}' in static folder.`)
+      const filePath = path.join(process.cwd(), 'static', f);
+      if (!fs.existsSync(filePath)) {
+        reporter.error(`Could not find file '${f}' in static folder.`);
       }
     });
 

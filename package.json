@@ -5,7 +5,7 @@
     "gatsby-plugin-seo"
   ],
   "scripts": {
-    "develop": "yarn workspace example-site develop",
+    "develop": "cd example-site && yarn develop",
     "build": "yarn workspace example-site build"
   },
   "devDependencies": {
