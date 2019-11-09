@@ -16,10 +16,7 @@ exports.sourceNodes = async ({ actions, reporter }, options) => {
     ];
 
     requiredFiles.forEach(f => {
-      reporter.warn(__dirname);
-      reporter.warn(f);
       const filePath = path.join(__dirname, f);
-      console.log("SEO", filePath);
       reporter.warn(filePath);
 
       if (!fs.existsSync(path)) {

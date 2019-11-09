@@ -3,10 +3,10 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
-import { SEO } from "gatsby-plugin-seo"
+import { SEO, useSEO } from "gatsby-plugin-seo"
 
 const IndexPage = () => { 
-  const siteUrl = "https://example.com" // TODO from query
+  const { siteUrl } = useSEO()
   return (
   <Layout>
     <SEO
