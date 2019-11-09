@@ -123,6 +123,7 @@ export default ({
       <link rel="apple-touch-icon" sizes="180x180" href={appleTouch} />
       <link rel="icon" type="image/png" href={favicon32} sizes="32x32" />
       <link rel="icon" type="image/png" href={favicon16} sizes="16x16" />
+      <link rel="shortcut icon" href="/favicon.ico" />
 
       {/* Core  */}
       <title>{pageTitle}</title>

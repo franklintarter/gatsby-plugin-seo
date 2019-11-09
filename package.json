@@ -1,12 +1,12 @@
 {
   "private": true,
   "workspaces": [
-    "example",
+    "example-site",
     "gatsby-plugin-seo"
   ],
   "scripts": {
-    "develop": "yarn workspace example develop",
-    "build": "cd example && yarn build"
+    "develop": "yarn workspace example-site develop",
+    "build": "yarn workspace example-site build"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
