@@ -40,6 +40,7 @@ module.exports = {
 ```
 
 ```js
+// src/pages/index.js
 import React from "react";
 import Layout from "../components/layout";
 import { SEO, useSEO } from "gatsby-plugin-seo";
