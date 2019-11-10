@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "franklintarter <franklintarter@gmail.com>",
   "license": "MIT",
+  "repository": "https://github.com/franklintarter/gatsby-plugin-seo/tree/master/gatsby-plugin-seo",
   "peerDependencies": {
     "gatsby": "^2.13.13",
     "react": "^16.8.6",
