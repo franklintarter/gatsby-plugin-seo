@@ -3,13 +3,14 @@
 ## Install
 
 ```shell
-yarn add gatsby-plugin-seo
+yarn add gatsby-plugin-seo react-helmet gatsby-plugin-react-helmet
 ```
 
 ```js
 // gatsby-config.js
 module.exports = {
   plugins: [
+    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-seo",
       options: {
